@@ -15,3 +15,8 @@ Models Used:
 Teacher: Large Transformer ( ViT) 
 
 Student: MobileNetV2
+
+## Train KD
+```bash
+python model_distill.py  --img_size 224 --lr 1e-3  --teacher_model "vit.pt"  --student_model "movilenet.pt"
+```
