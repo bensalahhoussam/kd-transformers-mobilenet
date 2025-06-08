@@ -28,5 +28,6 @@ python model_distill.py  --img_size 224 --lr 1e-3  --teacher_model "vit.pt"  --s
 
 ## ToDO 
 Implement feature-based KD for Transformers → MobileNet
+
 Automate training pipeline with config YAMLs
 
