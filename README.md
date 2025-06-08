@@ -25,3 +25,8 @@ python model_distill.py  --img_size 224 --lr 1e-3  --teacher_model "vit.pt"  --s
 | Task (10 Epochs)            | Teacher (Acc) | Student (Vanilla) | Student (KD) |
 |-----------------------------|---------------|-------------------|--------------|
 | CIFAR-10 (ViT → MobileNet ) | 93.2%         | 85.3%             | 90.9%        |
+
+## ToDO 
+Implement feature-based KD for Transformers → MobileNet
+Automate training pipeline with config YAMLs
+
